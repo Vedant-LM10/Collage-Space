@@ -1,0 +1,209 @@
+/*Sticky Navbar with Hover dropdown*/
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  color: #E0FE9C;
+}
+
+body{
+  background-image: url(home.png);
+  background-size: cover;
+  width: 100%;
+}
+.nav-link{
+  font-size: 15px;
+  margin-left: 20px;
+  font-weight: lighter;
+}
+
+.dropdown-menu{
+  animation-name: atthover;
+  animation-duration: 1s;
+  animation-iteration-count: finite;
+}
+
+.dropdown:hover{
+  animation-play-state: running;
+}
+.dropdown:hover> .dropdown-menu{
+  display: block;
+}
+
+.dropdown-item:hover{
+  background-color: #ccc;
+}
+
+@keyframes atthover{
+  0%{
+    opacity: 0;
+    margin-top: 30px;
+  }
+  50%{
+    opacity: 1;
+    margin-top: 0px;
+  }
+  100%{
+    opacity: 100%;
+  }
+
+}
+
+.navbar-dark.scrolled{
+  background: #4a4847;
+  transition: .5s ease-in-out;
+}
+
+.font-weight-bold{
+  text-align: left;
+  margin-left: 90px;
+  margin-bottom: 10px;
+  font-family: "montserrat";
+}
+
+.buttonClass {
+  font-size:24px;
+  font-family:Trebuchet MS;
+  width:170px;
+  height:50px;
+  border-width:0px;
+  color:rgba(119, 118, 118, 1);
+  border-color:#18ab29;
+  font-weight:bold;
+  border-top-left-radius:28px;
+  border-top-right-radius:28px;
+  border-bottom-left-radius:28px;
+  border-bottom-right-radius:28px;
+  background:rgba(224, 254, 156, 1);
+  margin-top: 15px;
+  margin-left: 90px;
+}
+
+.buttonClass:hover {
+  background: #A9EC6C;
+}     
+
+.middle{
+  position: relative;
+  top: 150px;
+  width: 100%;
+  height: 516px;
+  background-color: #383838;
+}
+
+#features {
+  position: relative;
+  background-color: #383838;
+}
+.what{
+  color: #E0FE9C;
+  font-family: "ubuntu";
+  text-align: left;
+  position: relative;
+  top: 30px;
+  left: 110px;
+}
+
+.para {
+  color: #fff;
+  text-align: left;
+  margin-left: 25px;
+  font-size: 0.9rem;
+  padding-top: 10px;
+}
+
+.feature-title {
+  font-size: 1.2rem;
+  font-family: "ubuntu";
+  color: white;
+  padding-top: 20px;
+  margin-bottom: 0;
+  text-align: left;
+  margin-left: 25px;
+}
+.mn{
+  font-size: 1.2rem;
+  font-family: "ubuntu";
+  text-align: left;
+  margin-left: 25px;
+  margin-bottom: 0;
+  padding: 0;
+  color: #fff;
+}
+.row{
+  width: 970px;
+  height: 325px;
+  position: relative;
+  margin: 0;
+  left: 110px;
+  top: 50px;
+}
+
+.feature-box {
+  padding: 0;
+}
+
+.bottom{
+  position: relative;
+  top: 150px;
+  width: 100%;
+  height: 516px;
+  background-color: #212121;
+}
+
+.contact{
+  color: #E0FE9C;
+  position: relative;
+  top: 80px;
+  left: 180px;
+}
+
+.address{
+  position: relative;
+  left: 162px;
+  color: white;
+  font-family: "montserrat";
+  top: 140px;
+  margin-bottom: 0;
+}
+
+.right{
+  left: 540px;
+  top: 20px;
+  position: relative;
+  color: white;
+  font-family: "montserrat";
+  margin-bottom: 0;
+}
+
+
+.buttonClass1 {
+  font-size:17px;
+  font-family:Arial;
+  width:178px;
+  height:50px;
+  border-width:0px;
+  color:rgba(0, 0, 0, 1);
+  border-color:#314179;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+  background:rgba(224, 254, 156, 1);
+  position: relative;
+  left: 178px;
+  top: 150px;
+}
+
+.buttonClass1:hover {
+  background: rgba(243, 255, 147, 1)
+}
+
+.social-icon{
+  color: rgba(224, 254, 156, 1);
+  margin-right: 15px;
+  font-size: 20px;
+  position: relative;
+  left: 1050px;
+  top: 210px;
+}
+              
