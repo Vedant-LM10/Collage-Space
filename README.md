@@ -1,2 +1,0 @@
-# Collage-Space
-Mini Project
